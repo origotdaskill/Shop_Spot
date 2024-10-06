@@ -6,7 +6,7 @@ import { Provider } from "react-redux";
 import store from "./store/store.js";
 import { Toaster } from "./components/ui/toaster.jsx";
 
-
+//MAIN.JSX
 createRoot(document.getElementById("root")).render(
   <BrowserRouter>
     <Provider store={store}>
