@@ -40,6 +40,7 @@ function App() {
   return (
     <div className="flex flex-col overflow-hidden bg-white">
       <Routes>
+        {/* check auth */}
         <Route
           path="/"
           element={
