@@ -1,3 +1,4 @@
+/** register Form config */
 export const registerFormControls = [
     {
       name: "userName",
