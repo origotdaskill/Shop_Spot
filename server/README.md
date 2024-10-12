@@ -45,9 +45,8 @@ npm install
 ```
 ## Configuration
 
-PORT: 5000 
-
-DATABASE_URL: The connection string for your database.
+1. PORT: 5000 
+2. DATABASE_URL: The connection string for your database.
 
 ## Scripts
 
