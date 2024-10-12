@@ -28,25 +28,25 @@ This repository contains both client and server code. The client provides a seam
 
 ### Clone the repository
 
-    ```bash
-    git clone https://github.com/origotdaskill/Shop_Spot.git
-    ```
+```bash
+git clone https://github.com/origotdaskill/Shop_Spot.git
+```
 
 ## Navigate to the directories and install dependencies
 
 ### For the client:
 
-    ```bash
-    cd Shop_Spot/client
-    npm install
-    ```
+```bash
+cd Shop_Spot/client
+npm install
+```
 
 ### For the server:
 
-    ```bash
-    cd Shop_Spot/server
-    npm install
-    ```
+```bash
+cd Shop_Spot/server
+npm install
+```
 ## Usage
  ### Start the server
 ```bash
