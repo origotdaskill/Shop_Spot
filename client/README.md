@@ -1,8 +1,78 @@
-# React + Vite
+# Shop Spot Client
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This directory contains the client-side code for the **Shop Spot** project. The client is built using modern web technologies to provide a seamless shopping experience.
 
-Currently, two official plugins are available:
+## Table of Contents
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- [Structure](#structure)
+- [Installation](#installation)
+- [Configuration](#configuration)
+- [Scripts](#scripts)
+- [Features](#features)
+- [Contributing](#contributing)
+- [License](#license)
+
+## Structure
+
+The client code is organized into the following directories and files:
+
+- **components/**: Reusable React components.
+- **pages/**: Different pages of the application.
+- **styles/**: CSS and styling files.
+- **assets/**: Images, fonts, and other static assets.
+- **App.js**: Main application component.
+- **index.js**: Entry point for the React app.
+- **package.json**: Project metadata and dependencies.
+
+## Installation
+
+To set up the client locally, follow these steps:
+
+1. **Clone the repository**:
+
+   ```bash
+   git clone https://github.com/origotdaskill/Shop_Spot.git
+   ```
+
+2. **Navigate to the client directory**:
+    ```bash
+    cd Shop_Spot/client
+    ```
+3. **Install dependencies**:
+    ```bash
+    npm install
+    ```
+## Configuration
+
+REACT_APP_API_URL: The URL of the backend API.
+
+## Scripts
+1. **Start the client**:
+    ```bash
+    npm start
+    ```
+2. **Build for production**:
+    ```bash
+    npm run build
+    ```
+
+## Features
+1. Responsive design for various devices.
+2. User authentication and authorization.
+3. Product browsing and search functionality.
+4. Shopping cart and checkout process.
+
+## Contributing
+We welcome contributions! Please follow these steps:
+
+1. Fork the repository.
+2. Create a new branch: `git checkout -b feature/YourFeature`
+3. Commit your changes: `git commit -m 'Add some feature'`
+4. Push to the branch: `git push origin feature/YourFeature`
+5. Submit a pull request.
+
+## License 
+
+This project is licensed under the MIT License - see the LICENSE file for details.
+
+Thank you for contributing to the Shop Spot client!
