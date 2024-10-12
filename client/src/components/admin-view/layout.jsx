@@ -1,5 +1,5 @@
 import { Outlet } from "react-router-dom";
-import AdminSideBar from "./sidebar.jsx";
+import AdminSideBar from "./sidebar";
 import AdminHeader from "./header";
 import { useState } from "react";
 

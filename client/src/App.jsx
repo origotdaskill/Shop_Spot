@@ -40,7 +40,6 @@ function App() {
   return (
     <div className="flex flex-col overflow-hidden bg-white">
       <Routes>
-        {/* check auth */}
         <Route
           path="/"
           element={
@@ -69,13 +68,11 @@ function App() {
             </CheckAuth>
           }
         >
-          {/* admin Routes */}
           <Route path="dashboard" element={<AdminDashboard />} />
           <Route path="products" element={<AdminProducts />} />
           <Route path="orders" element={<AdminOrders />} />
           <Route path="features" element={<AdminFeatures />} />
         </Route>
-        {/* shoping Routes */}
         <Route
           path="/shop"
           element={

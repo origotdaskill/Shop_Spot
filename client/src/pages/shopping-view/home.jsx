@@ -13,7 +13,6 @@ import {
   Shirt,
   ShirtIcon,
   ShoppingBasket,
-  footprints,
   WashingMachine,
   WatchIcon,
 } from "lucide-react";
