@@ -13,7 +13,7 @@ export const registerUser = createAsyncThunk(
   "/auth/register",
   async (formData) => {
     const response = await axios.post(
-      "https://shopspot-mgbu.onrender.com/api/auth/register",
+      "http://localhost:5173/api/auth/register",
       formData,
       {
         withCredentials: true,
@@ -27,7 +27,7 @@ export const loginUser = createAsyncThunk(
   "/auth/login",
   async (formData) => {
     const response = await axios.post(
-      "https://shopspot-mgbu.onrender.com/api/auth/login",
+      "http://localhost:5173/api/auth/login",
       formData,
       {
         withCredentials: true,
@@ -39,7 +39,7 @@ export const loginUser = createAsyncThunk(
 
 export const logoutUser = createAsyncThunk("/auth/logout", async () => {
   const response = await axios.post(
-    "https://shopspot-mgbu.onrender.com/api/auth/logout",
+    "http://localhost:5173/api/auth/logout",
     {},
     {
       withCredentials: true,
@@ -63,7 +63,7 @@ export const checkAuth = createAsyncThunk("/auth/checkauth", async () => {
 
   // If no local storage data, check with API
   const response = await axios.get(
-    "https://shopspot-mgbu.onrender.com/api/auth/check-auth",
+    "http://localhost:5173/api/auth/check-auth",
     {
       withCredentials: true,
       headers: {

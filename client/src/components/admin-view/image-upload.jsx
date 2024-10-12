@@ -50,7 +50,7 @@ function ProductImageUpload({
     const data = new FormData();
     data.append("my_file", imageFile);
     const response = await axios.post(
-      "https://shopspot-mgbu.onrender.com/api/admin/products/upload-image",
+      "http://localhost:5173/api/admin/products/upload-image",
       data
     );
     console.log(response, "response");
