@@ -87,4 +87,4 @@ We welcome contributions! Please follow these steps:
 
 This project is licensed under the MIT License - see the [LICENSE](../LICENSE.txt) file for details.
 
-Thank you for contributing to the **Shop Spot** server!
+Thank you for contributing to the **Shop Spot** client!

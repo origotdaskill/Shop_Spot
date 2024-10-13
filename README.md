@@ -75,12 +75,10 @@ We welcome contributions! Please follow these steps:
 
 This project is licensed under the MIT License - see the [LICENSE](../LICENSE.txt) file for details.
 
-Thank you for contributing to the **Shop Spot** server!
-
 ## Contact
 
 For questions or suggestions, please contact:
 
 **GitHub**: [origotdaskill](https://github.com/origotdaskill)
 
-Thank you for your interest in Shop Spot!
+Thank you for your interest in **Shop Spot** !
