@@ -58,7 +58,7 @@ To set up the client locally, follow these steps:
 1. **Start the client**:
 
     ```bash
-    npm start
+    npm run dev
     ```
 
 2. **Build for production**:
