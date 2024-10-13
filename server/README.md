@@ -22,7 +22,6 @@ The server code is organized into the following directories and files:
 - **routes/**: API route definitions.
 - **server.js**: Main entry point for the server.
 - **package.json**: Project metadata and dependencies.
-- **vercel.json**: Configuration for deployment on Vercel.
 
 ## Installation
 
@@ -39,10 +38,13 @@ To set up the server locally, follow these steps:
     ```bash
     cd Shop_Spot/server
     ```
+    
 3. **Install dependencies**:
-```bash
-npm install
-```
+
+    ```bash
+    npm install
+    ```
+    
 ## Configuration
 
 1. PORT: 5000 
@@ -51,28 +53,36 @@ npm install
 ## Scripts
 
 1. **Start the server**:
+
 ```bash
 npm start
 ```
+
 2. **Run in development mode** :
+
 ```bash
 npm run dev
 ```
 
 ## Endpoints
 
- ### Here are some key API endpoints :
-**User Authentication**:
-- `POST /api/auth/login`: Log in a user
-- `POST /api/auth/register`: Register a new user
+### Authentication
+- **POST** `/api/auth` - Authentication routes for user login, registration, etc.
 
-**Products**:
-- `GET /api/products`: Retrieve all products
-- `POST /api/products`: Add a new product
+### Admin
+- **GET/POST/PUT/DELETE** `/api/admin/products` - Manage products in the admin panel.
+- **GET/POST/PUT/DELETE** `/api/admin/orders` - Manage orders in the admin panel.
 
-**Orders**:
-- `GET /api/orders`: Retrieve all orders
-- `POST /api/orders`: Create a new order
+### Shop
+- **GET/POST/PUT/DELETE** `/api/shop/products` - Product-related routes for the shop.
+- **GET/POST/PUT/DELETE** `/api/shop/cart` - Manage cart items in the shop.
+- **GET/POST/PUT/DELETE** `/api/shop/address` - Address-related routes for the shop.
+- **GET/POST/PUT/DELETE** `/api/shop/order` - Manage orders for customers in the shop.
+- **GET** `/api/shop/search` - Product search functionality in the shop.
+- **GET/POST/PUT/DELETE** `/api/shop/review` - Product review routes.
+
+### Common
+- **GET/POST/PUT/DELETE** `/api/common/feature` - Common features accessible by both admin and shop.
 
 ## Contributing
 We welcome contributions! Please follow these steps:
@@ -85,6 +95,6 @@ We welcome contributions! Please follow these steps:
 
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE](../LICENSE) file for details.
+This project is licensed under the MIT License - see the [LICENSE](../LICENSE.txt) file for details.
 
 Thank you for contributing to the **Shop Spot** server!

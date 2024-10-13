@@ -56,7 +56,7 @@ npm run dev
  ### Start the client
 ```bash
 cd Shop_Spot/client
-npm start
+npm run dev
 ```
 
 Access the application at http://localhost:5173 .
@@ -72,7 +72,10 @@ We welcome contributions! Please follow these steps:
 
 
 ## License
-This project is licensed under the MIT License. See the LICENSE file for details.
+
+This project is licensed under the MIT License - see the [LICENSE](../LICENSE.txt) file for details.
+
+Thank you for contributing to the **Shop Spot** server!
 
 ## Contact
 

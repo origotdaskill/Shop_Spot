@@ -18,10 +18,13 @@ The client code is organized into the following directories and files:
 
 - **components/**: Reusable React components.
 - **pages/**: Different pages of the application.
-- **styles/**: CSS and styling files.
 - **assets/**: Images, fonts, and other static assets.
-- **App.js**: Main application component.
-- **index.js**: Entry point for the React app.
+- **config/**: index.js, models, liist .
+- **store/**: auth , admin , slicer .
+- **App.jsx**: App application component.
+- **App.css**: App application style sheet .
+- **index.css**: index application style sheet .
+- **main.jsx**: Main point for the React app.
 - **package.json**: Project metadata and dependencies.
 
 ## Installation
@@ -35,34 +38,43 @@ To set up the client locally, follow these steps:
    ```
 
 2. **Navigate to the client directory**:
+
     ```bash
     cd Shop_Spot/client
     ```
+
 3. **Install dependencies**:
+
     ```bash
     npm install
     ```
+
 ## Configuration
 
-REACT_APP_API_URL: The URL of the backend API.
+1. REACT_APP_API_URL: The URL of the backend API.
 
 ## Scripts
+
 1. **Start the client**:
+
     ```bash
     npm start
     ```
+
 2. **Build for production**:
+
     ```bash
     npm run build
     ```
-
 ## Features
+
 1. Responsive design for various devices.
 2. User authentication and authorization.
 3. Product browsing and search functionality.
 4. Shopping cart and checkout process.
 
 ## Contributing
+
 We welcome contributions! Please follow these steps:
 
 1. Fork the repository.
@@ -71,8 +83,8 @@ We welcome contributions! Please follow these steps:
 4. Push to the branch: `git push origin feature/YourFeature`
 5. Submit a pull request.
 
-## License 
+## License
 
-This project is licensed under the MIT License - see the LICENSE file for details.
+This project is licensed under the MIT License - see the [LICENSE](../LICENSE.txt) file for details.
 
-Thank you for contributing to the Shop Spot client!
+Thank you for contributing to the **Shop Spot** server!
