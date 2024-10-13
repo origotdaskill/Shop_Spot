@@ -55,7 +55,7 @@ To set up the server locally, follow these steps:
 1. **Start the server**:
 
 ```bash
-npm start
+npm start-server
 ```
 
 2. **Run in development mode** :
