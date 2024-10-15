@@ -1,7 +1,6 @@
 # Shop Spot
 
-![Presentation image](../client/public/prestation.jpeg)
-
+![Presentation image](https://raw.githubusercontent.com/origotdaskill/Shop_Spot/refs/heads/main/client/public/prestation.jpeg)
 
 **Shop Spot** is a project designed to provide an online shopping management platform, using modern web technologies.
 
