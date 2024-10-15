@@ -62,7 +62,7 @@ cd Shop_Spot/client
 npm run dev
 ```
 
-Access the application at http://localhost:5173 .
+Access the application at https://shop-spot.vercel.app .
 
 ## Contributing
 We welcome contributions! Please follow these steps:
