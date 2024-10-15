@@ -1,5 +1,8 @@
 # Shop Spot
 
+![Presentation image](../Shop_Spot/client/public/Capture%20d’écran_15-10-2024_165230_shop-spot.vercel.app.jpeg)
+
+
 **Shop Spot** is a project designed to provide an online shopping management platform, using modern web technologies.
 
 ## Table of Contents
