@@ -1,6 +1,6 @@
 # Shop Spot Client
 
-![Presentation image](../Shop_Spot/client/public/Capture%20d’écran_15-10-2024_165230_shop-spot.vercel.app.jpeg)
+![Presentation image](../Shop_Spot/client/public/prestation.jpeg)
 
 
 This directory contains the client-side code for the **Shop Spot** project. The client is built using modern web technologies to provide a seamless shopping experience.
