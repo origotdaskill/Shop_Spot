@@ -1,6 +1,6 @@
 # Shop Spot
 
-![Presentation image](../Shop_Spot/client/public/prestation.jpeg)
+![Presentation image](../client/public/prestation.jpeg)
 
 
 **Shop Spot** is a project designed to provide an online shopping management platform, using modern web technologies.

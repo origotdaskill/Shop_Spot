@@ -1,6 +1,6 @@
 # Shop Spot Client
 
-![Presentation image](../Shop_Spot/client/public/prestation.jpeg)
+![Presentation image](../client/public/prestation.jpeg)
 
 
 This directory contains the client-side code for the **Shop Spot** project. The client is built using modern web technologies to provide a seamless shopping experience.
